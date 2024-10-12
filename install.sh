@@ -73,11 +73,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-sy
 
 # installs tmux plugins
 mkdir -p ~/.config/tmux/plugins
-git clone https://github.com/dreamsofcode-io/catppuccin-tmux.git ~/.config/tmux/plugins/catppuccin-tmux
-git clone https://github.com/tmux-plugins/tmux-sensible.git ~/.config/tmux/plugins/tmux-sensible
-git clone https://github.com/tmux-plugins/tmux-yank.git ~/.config/tmux/plugins/tmux-yank
-git clone https://github.com/tmux-plugins/tpm.git ~/.config/tmux/plugins/tpm
-git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.config/tmux/plugins/vim-tmux-navigator
+git clone https://github.com/dreamsofcode-io/catppuccin-tmux.git ~/.tmux/plugins/catppuccin-tmux
+git clone https://github.com/tmux-plugins/tmux-sensible.git ~/.tmux/plugins/tmux-sensible
+git clone https://github.com/tmux-plugins/tmux-yank.git ~/.tmux/plugins/tmux-yank
+git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
+git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.tmux/plugins/vim-tmux-navigator
 
 # nodejs
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
